@@ -24,3 +24,4 @@ public class Ex8 {
 		System.out.println("Vetor da ultima posicao= "+ ultimo);
 	}
 }
+
