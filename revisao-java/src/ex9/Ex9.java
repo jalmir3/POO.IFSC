@@ -25,3 +25,4 @@ public class Ex9 {
 		System.out.println("Palavra da ultima posicao= " + lista.get(2));
 	}
 }
+
