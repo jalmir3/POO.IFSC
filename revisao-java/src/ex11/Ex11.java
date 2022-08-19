@@ -28,3 +28,4 @@ public class Ex11 {
 		System.out.print("Media salario="+soma/100);
 	}
 }
+
