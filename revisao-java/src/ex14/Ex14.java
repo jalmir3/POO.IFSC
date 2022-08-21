@@ -32,7 +32,7 @@ public class Ex14 {
 	  }
 	}
 		    return total;
-}
+	}
 	public static double verificaMedia(double total,String nome) {
 		double media=total/3;
 		System.out.println("Aluno:" + nome +"/media="+ media);
@@ -89,6 +89,5 @@ public class Ex14 {
 			}
 		
 		verificaMedia(total,nome);
-     
-	}
+     }
 }
