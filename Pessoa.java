@@ -1,19 +1,12 @@
-package lista2;
+package poo;
+
+import java.time.LocalDate;
 
 public class Pessoa {
-    private String nome;
-    private int idade;
-    private String cpf;
-    
-    public Pessoa() {
-    	
-    }
-    public Pessoa(String nome,int idade,String cpf) {
-    	this.nome = nome;
-    	this.idade = idade;
-    	this.cpf = cpf;
-    	
-    }
+
+	private String nome;
+	private LocalDate dataNasc;
+    private Long cpf;
     
 	public String getNome() {
 		return nome;
@@ -21,19 +14,18 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public int getIdade() {
-		return idade;
+	public LocalDate getDataNasc() {
+		return dataNasc;
 	}
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setDataNasc(LocalDate dataNasc) {
+		this.dataNasc = dataNasc;
 	}
-	public String getCpf() {
+	public Long getCpf() {
 		return cpf;
 	}
-	public void setCpf(String cpf) {
+	public void setCpf(Long cpf) {
 		this.cpf = cpf;
 	}
-	
     
     
 }
